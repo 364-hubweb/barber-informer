@@ -112,3 +112,10 @@ iframe {
 main {
     padding: 15px; /* Keep standard padding */
 }
+
+.embed {
+    display: block;      /* makes it behave like a block element */
+    width: 100%;         /* lets it scale with the container */
+    max-width: 512px;    /* caps the size */
+    margin: 0 auto;      /* centers horizontally */
+}

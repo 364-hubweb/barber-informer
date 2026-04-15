@@ -9,8 +9,8 @@
 
 body {
   margin: 0 ;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif; /* Switched to a modern font */
-  line-height: 1.6;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7;
   color: #333;
   background: var(--background-color);
 }
@@ -25,8 +25,10 @@ header {
   background: var(--primary-color); /* Header background is now the primary color */
   color: white;
 }
-h1, h2, h4 {
-  text-align: center; /* Explicitly centering all headers */
+h1, h2, h3, h4 {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+    text-align: center;
 }
 h1 {
   margin: 0 0 0.5em;
@@ -45,12 +47,11 @@ p {
   margin: 0.8em 0;
 }
 .section {
-
-  background: var(--card-bg);
-  border-radius: 15px; /* Slightly rounder corners */
-  box-shadow: 0 10px 30px var(--shadow-color); /* Brighter shadow */
-  padding: 15px;
-  margin-bottom: 25px;
+    background: var(--card-bg);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px var(--shadow-color);
+    padding: 20px; /* bump from 15px */
+    margin-bottom: 30px;
 }
 .section-grid {
     background: var(--card-bg);
@@ -124,7 +125,7 @@ main {
 }
 
 .Customer {
-    max-width: 1000px;
+    max-width: 1024px;
     margin: 40px auto; /* adds vertical spacing */
     padding: 20px;
     border-radius: 15px;

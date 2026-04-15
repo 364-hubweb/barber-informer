@@ -8,20 +8,20 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 ;
   font-family: 'Poppins', Arial, Helvetica, sans-serif; /* Switched to a modern font */
   line-height: 1.6;
   color: #333;
   background: var(--background-color);
 }
 header,
-main,
 footer {
-  max-width: 980px;
+  max-width: 1024px;
   margin: 0 auto;
   padding: 30px;
 }
 header {
+    max-width: 1440px;
   background: var(--primary-color); /* Header background is now the primary color */
   color: white;
 }
@@ -45,6 +45,7 @@ p {
   margin: 0.8em 0;
 }
 .section {
+
   background: var(--card-bg);
   border-radius: 15px; /* Slightly rounder corners */
   box-shadow: 0 10px 30px var(--shadow-color); /* Brighter shadow */
@@ -110,6 +111,8 @@ iframe {
 }
 /* Ensure the main content area doesn't interfere */
 main {
+    max-width: 1024px;
+    margin: 0 auto ;
     padding: 15px; /* Keep standard padding */
 }
 
@@ -118,4 +121,13 @@ main {
     width: 100%;         /* lets it scale with the container */
     max-width: 512px;    /* caps the size */
     margin: 0 auto;      /* centers horizontally */
+}
+
+.Customer {
+    max-width: 1000px;
+    margin: 40px auto; /* adds vertical spacing */
+    padding: 20px;
+    border-radius: 15px;
+    background: white; /* important for card look */
+    box-shadow: 0 10px 30px var(--shadow-color);
 }

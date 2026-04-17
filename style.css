@@ -86,6 +86,7 @@ iframe {
 
 /* Style for the image gallery on index.html */
 .gallery {
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

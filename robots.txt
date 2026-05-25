@@ -1,0 +1,8 @@
+# robots.txt for J&J Barber Beauty Salon
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://jandjbarbers.com/sitemap.xml

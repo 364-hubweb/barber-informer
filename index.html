@@ -3,8 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>J&J Barber Beauty Salon - Open Stations Available</title>
-
+    <title>J&J Barber Beauty Salon - Fort Lauderdale's Premier Barber Shop</title>
+    <meta name="description" content="J&J Barber Beauty Salon in Fort Lauderdale, FL offers professional haircuts, fades, hot towel shaves, and station rentals. Walk-ins welcome! Master barbers & beauticians available.">
+    <meta name="keywords" content="barber salon, Fort Lauderdale, haircuts, fades, hot towel shave, station rental, beauty salon, barber shop">
+    <meta name="author" content="J&J Barber Beauty Salon">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jandjbarbers.com/">
+    <meta property="og:title" content="J&J Barber Beauty Salon - Fort Lauderdale's Premier Barber Shop">
+    <meta property="og:description" content="Professional haircuts, fades, and hot towel shaves at J&J Barber Beauty Salon. Walk-ins welcome!">
+    <meta property="og:image" content="https://jandjbarbers.com/images/interior1.JPG">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://jandjbarbers.com/">
+    <meta property="twitter:title" content="J&J Barber Beauty Salon - Fort Lauderdale's Premier Barber Shop">
+    <meta property="twitter:description" content="Professional haircuts, fades, and hot towel shaves. Walk-ins welcome!">
+    <meta property="twitter:image" content="https://jandjbarbers.com/images/interior1.JPG">
+    
+    <link rel="canonical" href="https://jandjbarbers.com/">
+    
     <!-- Google Fonts goes HERE -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
     
@@ -12,37 +32,68 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="index.html" style="text-decoration: none;">
+            <h1>J&J <span>Barber</span></h1>
+          </a>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="pages/team.html">Our Team</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="pages/rates.html">Rates</a></li>
+          <li><a href="pages/contactus.html">Contact</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <header id="home">
       <h1>J&J Barber Beauty Salon</h1>
-      <h2 style="color: white;">Open Stations Available for Rent</h2>
-      <p style="text-align: center;">Walk-ins are welcome</p>
+      <h2 style="color: var(--accent-color);">Open Stations Available for Rent</h2>
+      <p style="text-align: center; color: var(--light-text);">Walk-ins are welcome</p>
+    </header>
+    
+    <section id="gallery" class="section">
+      <h2>Gallery</h2>
+      <p>Take a look inside our professional barbershop environment</p>
+
       <div class="gallery">
 
-        <a href="images/interior1.JPG" target="_blank">
-          <img src="images/interior1.JPG" alt="">
+        <a href="images/interior1.JPG" target="_blank" data-caption="Professional Barbershop Interior">
+          <img src="images/interior1.JPG" alt="J&J Barber Beauty Salon Interior - Professional Barbershop Environment">
         </a>
 
-        <a href="images/interior2.JPG" target="_blank">
-          <img src="images/interior2.JPG" alt="">
+        <a href="images/interior2.JPG" target="_blank" data-caption="Modern Barbershop Design">
+          <img src="images/interior2.JPG" alt="J&J Barber Beauty Salon Interior - Modern Barbershop Design">
         </a>
 
-        <a href="images/interior3.JPG" target="_blank">
-          <img src="images/interior3.JPG" alt="">
+        <a href="images/interior3.JPG" target="_blank" data-caption="Clean and Professional Space">
+          <img src="images/interior3.JPG" alt="J&J Barber Beauty Salon Interior - Clean and Professional Space">
         </a>
 
-        <a href="images/interior4.JPG" target="_blank">
-          <img src="images/interior4.JPG" alt="">
+        <a href="images/interior4.JPG" target="_blank" data-caption="Customer-Focused Barbershop">
+          <img src="images/interior4.JPG" alt="J&J Barber Beauty Salon Interior - Customer-Focused Barbershop">
         </a>
 
-        <a href="images/interior5.JPG" target="_blank">
-          <img src="images/interior5.JPG" alt="">
+        <a href="images/interior5.JPG" target="_blank" data-caption="Premium Grooming Experience">
+          <img src="images/interior5.JPG" alt="J&J Barber Beauty Salon Interior - Premium Grooming Experience">
         </a>
 
       </div>
-    </header>
+    </section>
+    
     <main>
       <section class="section">
-        <h2>Master Barbers &amp; Beauticians</h2>
+        <h2>Master Barbers & Beauticians</h2>
         <p>Experience the art of grooming at Barber Informer. Your local destination for professional fades, classic shaves, and modern styling delivered by master barbers.</p>
       </section>
         <section class="section">
@@ -56,7 +107,7 @@
         <p style="text-align: center;"><a href="pages/team/jordan.html"><strong style="color: var(--primary-color);">Jordan</strong></a></p>
       </section>
       <section class="section-grid">
-        <h2>Services</h2>
+        <h2 id="services">Services</h2>
         <div class="service-grid">
           <div class="service-card">
             <h5>Classic Haircut</h5>
@@ -96,12 +147,51 @@
       <h2>Customer Survey</h2>
       <p style="text-align: center;">How was your experience? <br><a href="https://www.google.com/maps/place/101+SW+27th+Ave+Unit+3,+Fort+Lauderdale,+FL+33312" target="_blank">Leave a Review on Google</a></p>
     </section>
-    <footer class="section" style="background: var(--primary-color); color: white;">
-      <p style="text-align: center;">&copy; 2026 Barber Informer.</p>
+    <footer id="contact">
+      <p style="text-align: center;">&copy; 2026 J&J Barber Beauty Salon. All rights reserved.</p>
       <div class="contact-links">
         <p style="text-align: center;"><a href="mailto:jandjbarbers1@proton.me">Report Repair/Suggestion</a></p>
       </div>
     </footer>
+
+    <!-- JavaScript for Mobile Navigation -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('navMenu');
+        const navLinks = document.querySelectorAll('.nav-menu a');
+
+        // Toggle mobile menu
+        hamburger.addEventListener('click', function() {
+          navMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a link
+        navLinks.forEach(link => {
+          link.addEventListener('click', () => {
+            navMenu.classList.remove('active');
+          });
+        });
+
+        // Smooth scroll for navigation links
+        navLinks.forEach(link => {
+          link.addEventListener('click', function(e) {
+            // Only smooth scroll for internal links (starting with #)
+            if (this.getAttribute('href').startsWith('#')) {
+              e.preventDefault();
+              const targetId = this.getAttribute('href');
+              const targetSection = document.querySelector(targetId);
+              
+              if (targetSection) {
+                targetSection.scrollIntoView({
+                  behavior: 'smooth',
+                  block: 'start'
+                });
+              }
+            }
+          });
+        });
+      });
+    </script>
   </body>
 </html>
-

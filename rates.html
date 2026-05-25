@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us - J&J Barber Beauty Salon - Fort Lauderdale, FL</title>
+    <meta name="description" content="Contact J&J Barber Beauty Salon in Fort Lauderdale, FL. Get in touch to learn more about our services and salon rental opportunities.">
+    <meta name="keywords" content="contact J&J Barber Beauty Salon, Fort Lauderdale, beauty salon contact, salon information, J&J Barber Beauty Salon">
+    <meta name="author" content="J&J Barber Beauty Salon">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jandjbarbers.com/pages/rates.html">
+    <meta property="og:title" content="Contact Us - J&J Barber Beauty Salon">
+    <meta property="og:description" content="Get in touch with J&J Barber Beauty Salon in Fort Lauderdale, FL.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="https://jandjbarbers.com/pages/rates.html">
+    <meta property="twitter:title" content="Contact Us - J&J Barber Beauty Salon">
+    <meta property="twitter:description" content="Get in touch with J&J Barber Beauty Salon in Fort Lauderdale, FL.">
+    
+    <link rel="canonical" href="https://jandjbarbers.com/pages/rates.html">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet linked externally -->
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="../index.html" style="text-decoration: none;">
+            <h1>J&J <span>Barber</span></h1>
+          </a>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../pages/team.html">Our Team</a></li>
+          <li><a href="../index.html#services">Services</a></li>
+          <li><a href="../pages/rates.html">Rates</a></li>
+          <li><a href="../pages/contactus.html">Contact</a></li>
+          <li><a href="../index.html#gallery">Gallery</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="section">
+        <h2>Get In Touch</h2>
+        <p style="text-align: center;">Please contact us for more information about our services and salon opportunities.</p>
+        <p style="text-align: center; margin-top: 30px;">
+          <a href="tel:9546386730" style="display: inline-block; padding: 15px 30px; background: var(--primary-color); color: var(--light-text); text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 1.2em;">Call Us: 954-638-6730</a>
+        </p>
+        <p style="text-align: center; margin-top: 20px;">
+          <a href="mailto:jandjbarbers1@proton.me" style="color: var(--text-color); text-decoration: none;">jandjbarbers1@proton.me</a>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 J&J Barber Beauty Salon. All rights reserved.</p>
+      <div class="contact-links">
+        <p><a href="mailto:jandjbarbers1@proton.me">Contact Us</a></p>
+      </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Navigation -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('navMenu');
+
+        hamburger.addEventListener('click', function() {
+          navMenu.classList.toggle('active');
+        });
+
+        navMenu.querySelectorAll('a').forEach(link => {
+          link.addEventListener('click', () => {
+            navMenu.classList.remove('active');
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
